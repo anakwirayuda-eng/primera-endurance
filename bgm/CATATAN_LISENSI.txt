@@ -1,0 +1,25 @@
+CATATAN LISENSI MUSIK LATAR (BGM) — diperbarui 15 November 2026
+================================================================
+
+Isi folder ini (5 lagu, dipilih dr. Wirayuda, 15 Nov 2026):
+
+  pagi-clear-air.mp3    "Clear Air"   Kevin MacLeod (incompetech.com)
+  siang-cool-vibes.mp3  "Cool Vibes"  Kevin MacLeod (incompetech.com)
+  siang-dreamer.mp3     "Dreamer"     Kevin MacLeod (incompetech.com)
+  senja-evening.mp3     "Evening"     Kevin MacLeod (incompetech.com)
+  senja-windswept.mp3   "Windswept"   Kevin MacLeod (incompetech.com)
+
+Lisensi: Creative Commons: By Attribution 4.0
+         https://creativecommons.org/licenses/by/4.0/
+Perubahan: hening di tepi dipotong, kenyaringan disamakan (−20 LUFS),
+           dikodekan ulang MP3 96 kbps (scripts/olah-musik.mjs).
+
+Sumber kebenaran atribusi: src/renderer/src/audio/bgmKredit.ts
+(ditampilkan di Pengaturan → Tentang & Kredit). Tiap berkas di folder ini
+WAJIB punya entri di sana; `npm run audit:audio` menggagalkan build bila
+tidak. Aturan lengkap: docs/KEBIJAKAN_ASET_AUDIO.md.
+
+Riwayat: tujuh berkas OST berhak cipta (Square Enix) yang dulu ada di sini
+dihapus 2026-07-11 karena tidak berlisensi distribusi; musik generatif
+pengganti dihapus 2026-08-02. Jangan menaruh berkas tanpa lisensi yang
+jelas di folder ini.
